@@ -1,6 +1,6 @@
 # quotesGenerator
 
-# generate the random quotes.
-# USED : HTML, CSS, BOOTSTRAP, JS.
+1. generate the random quotes.
+2. USED : HTML, CSS, BOOTSTRAP, JS.
 
-# also you tweet your favourite quote.
+# also you can tweet your favourite quote.
