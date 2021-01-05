@@ -32,6 +32,19 @@ body{
     margin: 10%;
 }
 
+.pic{
+    position: absolute;
+    top: -12%;
+    left: 88.7%;
+    transform: rotate(-45deg);
+    width: 0; 
+    height: 0; 
+    border-top: 60px solid transparent;
+    border-bottom: 60px solid transparent;
+    
+    border-left: 60px solid lightslategray;
+}
+
 .fa-twitter{
     position: absolute;
     left: 90%;
