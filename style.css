@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: url('https://source.unsplash.com/random') no-repeat;
+    background-size: cover;
+}
+
+.outerBox{
+    position: absolute;
+    width: 600px;
+    height: 500px;
+    margin: 5% 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #34495e;
+    border-radius: 20px;
+}
+
+.container{
+    position: relative;
+    width: 500px;
+    height: 400px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10%;
+}
+
+.pic{
+    position: absolute;
+    top: -12%;
+    left: 88.7%;
+    transform: rotate(-45deg);
+    width: 0; 
+    height: 0; 
+    border-top: 60px solid transparent;
+    border-bottom: 60px solid transparent;
+    
+    border-left: 60px solid lightslategray;
+}
+
+.fa-twitter{
+    position: absolute;
+    left: 90%;
+    top: 5%;
+    cursor: pointer;
+    color: rgb(4, 185, 245);
+}
+
+.fa-twitter:hover~.show{
+    display: block;
+}
+
+.show{
+    position: absolute;
+    top: 8%;
+    left: 79%;
+    display: none;
+}
+
+.text{
+    margin-left: 20px;
+    font-size: 25px;
+    font-weight: bolder;
+    font-family: 'Redressed', cursive;
+}
+
+.author{
+    margin-left: 66%;
+}
+
+.btn{
+    font-size: 1rem;
+    font-weight: bolder;
+    border: none;
+    position: absolute;
+    top: 83%;
+    left: 0;
+    width: 500px;
+}
+
