@@ -5,7 +5,7 @@
 }
 
 body{
-    background: url('https://source.unsplash.com/random') no-repeat;
+    background: url('https://source.unsplash.com/random');
     background-size: cover;
 }
 
@@ -34,23 +34,26 @@ body{
 
 .pic{
     position: absolute;
-    top: -12%;
-    left: 88.7%;
+    top: -47%;
+    left: 76.7%;
     transform: rotate(-45deg);
-    width: 0; 
-    height: 0; 
     border-top: 60px solid transparent;
     border-bottom: 60px solid transparent;
-    
     border-left: 60px solid lightslategray;
 }
 
 .fa-twitter{
+    width: 30px;
     position: absolute;
     left: 90%;
     top: 5%;
     cursor: pointer;
     color: rgb(4, 185, 245);
+    transition: transform 1s;
+}
+
+.fa-twitter:hover{
+    transform: rotate(360deg);
 }
 
 .fa-twitter:hover~.show{
@@ -84,4 +87,12 @@ body{
     left: 0;
     width: 500px;
 }
+
+@media (max-width:1174px){
+    .outerBox{
+        margin-left: 50%;
+    }
+}
+
+
 
