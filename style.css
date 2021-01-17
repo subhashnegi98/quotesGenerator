@@ -6,14 +6,14 @@
 
 body{
     background: url('https://source.unsplash.com/random');
-    background-size: cover;
+    background-size: 100%;
 }
 
 .outerBox{
     position: absolute;
     width: 600px;
     height: 500px;
-    margin: 5% 25%;
+    margin: 5% 30%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -88,11 +88,14 @@ body{
     width: 500px;
 }
 
-@media (max-width:1174px){
+@media (max-width:695px){
     .outerBox{
-        margin-left: 50%;
+        top: 50%;
+        left: 20%;
     }
 }
+
+
 
 
 
